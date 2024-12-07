@@ -1,5 +1,5 @@
 const textElement = document.getElementById('text');
-const texts = ['Em bé ngoan xinh iu của anh ơiii', 'Em bé biết gì hăm', '❤️Anh yêuu emmm❤️'];
+const texts = ['Em bé ngoan xinh iu của anh ơiii', 'Em bé biết gì hog', 'hôm nay là sinh nhật của em đóa'];
 let currentIndex = 0;
 
 function changeText() {
