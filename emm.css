@@ -1,0 +1,89 @@
+body {
+    background-color: #f7c7d2;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .message-container {
+    font-size: 2rem;
+    color: #131112;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+
+  .sub-message {
+    font-size: 1rem;
+    color: #51363c;
+    margin-top: 15px;
+  }
+
+  .btn {
+    padding: 15px 25px;
+    font-size: 1rem;
+    background-color: #ff8f8f;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .btn:hover {
+    background-color: #ff4d6d;
+  }
+
+.b2 {
+padding: 15px 25px;
+font-size: 1rem;
+background-color: #ff8f8f;
+color: white;
+border: none;
+border-radius: 25px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+
+.b2:hover {
+background-color: #ff4d6d;
+}
+
+  .wish-box {
+    margin-top: 30px;
+    padding: 35px;
+    background-color: #fce0e4;
+    border: 5px solid #ff4d6d;
+    border-radius: 15px;
+    width: 90%;
+    max-width: 550px;
+  }
+
+  body {
+    background-color: #f6c1d7; /* Nền hồng pastel */
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .heart {
+    position: absolute;
+    font-size: 1.5em;
+    color: #ffb6c1;
+    animation: fall 6s infinite linear;
+  }
+
+  @keyframes fall {
+    0% {
+      top: -10%;
+    }
+    100% {
+      top: 100%;
+    }
+  }
